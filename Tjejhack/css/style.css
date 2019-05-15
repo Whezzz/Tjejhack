@@ -1,0 +1,55 @@
+@font-face{
+	font-family: "Archive";
+	src: url('../Fonts/Archive.otf') format('opentype');
+}
+@font-face{
+	font-family: "NexaB";
+	src: url('../Fonts/NexaB.otf') format('opentype');
+}
+@font-face{
+font-family: "NexaL";
+	src: url('../Fonts/NexaL.otf') format('opentype');
+}
+
+.div1{
+	width: 100%;
+	padding: 8px;
+}
+.div2{
+	width: 100%;
+	padding: 8px;
+	font-family: NexaL;
+}
+.div3{
+	width: 50%;
+	float: left;
+	padding: 8px;
+	font-family: NexaL;
+}
+.div4{
+	width: 90%;
+	border: 1px rgb(77,77,77) solid;
+	height: 280px;
+	margin: auto;
+	padding: 8px;
+	font-family: NexaL;
+}
+.person{
+	width: 100%;
+	height: 164px;
+	padding: 8px;
+	margin: 0;
+}
+.personImage{
+	height: 132px;
+	width: 132px;
+}
+.personText{
+	float: left;
+	font-family: NexaB;
+	padding: 4px;
+}
+.baseText{
+	font-size: 16px;
+	font-family: NexaL;
+}
