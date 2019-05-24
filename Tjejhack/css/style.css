@@ -34,6 +34,7 @@ font-family: "NexaL";
 	border: none;
 	padding: 12px 24px;
 	border-radius: 2px;
+	background-color: white;
 
   	-webkit-transition-duration: 0.4s; /* Safari */
   	transition-duration: 0.4s;
@@ -112,3 +113,17 @@ font-family: "NexaL";
 	text-align: center;
 	padding: 6px;
 }
+
+iframe{
+	border: 0px;
+}
+.mapouter{
+	position:relative;
+	text-align:right;
+	height:350px;
+	width:350px;}
+.gmap_canvas {
+	overflow:hidden;
+	background:none!important;
+	height:350px;
+	width:350px;}
