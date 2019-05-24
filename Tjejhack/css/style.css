@@ -11,6 +11,15 @@ font-family: "NexaL";
 	src: url('../Fonts/NexaL.otf') format('opentype');
 }
 
+.background{
+	background-color: rgb(33,33,33);
+}
+
+.navbar{
+	height: 96px;
+	width: 100%;
+	background-color: #E80C94;
+}
 .div1{
 	width: 100%;
 	padding: 8px;
@@ -28,7 +37,7 @@ font-family: "NexaL";
 }
 .div4{
 	width: 90%;
-	border: 1px rgb(77,77,77) solid;
+	border: 1px white solid;
 	height: 280px;
 	margin: auto;
 	padding: 8px;
@@ -36,7 +45,6 @@ font-family: "NexaL";
 }
 .person{
 	width: 100%;
-	height: 164px;
 	padding: 8px;
 	margin: 0;
 }
@@ -45,11 +53,21 @@ font-family: "NexaL";
 	width: 132px;
 }
 .personText{
-	float: left;
 	font-family: NexaB;
 	padding: 4px;
+	color: white;
 }
 .baseText{
 	font-size: 16px;
 	font-family: NexaL;
+	color: white;
+}
+.titleText{
+	color: white;
+	font-family: NexaL;
+}
+.footer{
+	height: 132px;
+	width: 100%;
+	background-color: #E80C94; 
 }
