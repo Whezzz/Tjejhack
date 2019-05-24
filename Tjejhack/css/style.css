@@ -35,9 +35,13 @@ font-family: "NexaL";
 
 /* Body Content */
 .navbar{
-	height: 96px;
+	height: 124px;
 	width: 100%;
-	background-color: rgb(77,77,77);
+	background-color: white;
+}
+.navbarImg{
+	max-height: 70%;
+	max-width: 70%;
 }
 .div1-Häftet{
 	width: 100%;
