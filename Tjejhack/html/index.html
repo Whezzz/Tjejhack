@@ -10,6 +10,9 @@
 
   <link rel="stylesheet" type="text/css" href="../css/style.css">
 
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v3.3"></script>
+
   <title>Tjejhack</title>
 </head>
 <header>
@@ -17,7 +20,7 @@
     <div class="row">
       <div class="col">
 
-        <!-- Bildgalleri -->
+        <!-- Bildgalleri (Här kan läggas till nya bilder (Standard-format: 1920x600 OBS! är bakgrundsfärgen annan än vit på bilden som ska läggas till behöver bredden vara < 1920px så att den passar in på en större skärm utan att den vita bakgrunden av sidan sticker ut på sidorna av bilden)) -->
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -66,13 +69,13 @@
         <h4 class="titleText temaText">Var?</h4>
         <p class="baseText">Nästa Tjejhack äger rum på Snäckebacksskolan i Ronneby | Esplanaden 6, 372 35 Ronneby</p>
 
-        <!-- Aektion för Google maps -->
+        <!-- Aektion för Google maps (Ska position ändras behövs endast href bytas ut) -->
         <div class="mapouter"><div class="gmap_canvas"><iframe width="400" height="400" id="gmap_canvas" src="https://maps.google.com/maps?q=sn%C3%A4ckebacksskolan&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Google Maps Generator by <a href="https://www.embedgooglemap.net">embedgooglemap.net</a></div><style>.mapouter{position:relative;text-align:right;height:350px;width:350px;}.gmap_canvas {overflow:hidden;background:none!important;height:350px;width:350px;}</style></div>
 
       </div>
       <div class="div3-Var-När col">
         <h4 class="titleText temaText">När?</h4>
-        <p class="baseText">Nästa Tjejhack äger rum den 29 Maj 2019 på Snäckebacksskolan i Ronneby: <p id="demo" class="baseText"></p></p>
+        <p class="baseText">Nästa Tjejhack äger rum den 29 Maj 2019 på Snäckebacksskolan i Ronneby: <p id="demo" class="baseText"></p></p> <!-- id demo är id:et för countdownen -->
       </div>
     </div>
 
@@ -89,7 +92,7 @@
     <div class="row">
 
       <div class="row">
-        <div class="col" style=" border: 1px solid rgb(33,33,33);">
+        <div class="col" style=" border: 1px solid rgb(33,33,33);"> <!-- Bordern är till för att fixa en bugg i windows Edge -->
           <h3 class="titleText temaText" style="margin-left: 26px; margin-top: 15px;">Mentorer</h3>
         </div>
       </div>
@@ -121,6 +124,24 @@
       </div>
 
     </div>
+
+    <!-- Sektion för Press -->
+    <div class="row">
+      <div class="col pressCol">
+        <h3 class="titleText temaText" style="margin-left: 10px; margin-top: 15px;">Press</h3>
+
+        <p class="baseText"><i>"Digitaliseringen av skolan går inte på en studiedag"</i> - Fredrik Johansson <a href="https://www.youtube.com/watch?v=fKG6bVItzZQ&feature=youtu.be">(Länk)</a></p>
+
+        <p class="baseText"><i>"Koda lätt i Windows"</i> - Intervju med Fredrik Johansson <a href="https://www.voister.se/artikel/2018/06/koda-latt-i-windows/">(Länk)</a></p>
+
+      </div>
+
+      <!-- Facebook feed (Placeholder, ändra href för att navigera till en annan facebooksida) -->
+      <div class="col pressCol" style="margin-top: 55px; margin-right: 25px; margin-bottom: 55px;text-align: right;">
+        <p class="baseText"><i>Placeholder</i></p>
+        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-width="200" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/facebook" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote></div>
+      </div>
+    </div>
     
   </div>
 
@@ -130,8 +151,9 @@
   <!-- Sektion för Footer -->
   <div class="container footerCon">
     <div class="row">
-      <div class="col footer">
-
+      <div class="col footer footerText">
+        <p class="baseText">© 2019 Tjejhack, Teknikprogrammet. All Rights Reserved.</p>
+        <p class="baseText">Skapad av: <i>Elias Klemedsson</i></p>
       </div>
     </div>
   </div>

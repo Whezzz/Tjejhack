@@ -1,3 +1,4 @@
+//Här kan man lätt ändra datum och tid för när nästa tjejhack är.
 var countDownDate = new Date("May 29, 2019 12:00:00").getTime();
 
 // Update the count down every 1 second
@@ -26,6 +27,8 @@ var x = setInterval(function() {
   }
 }, 1000);
 
+
+//Frågorna för Quizen | q= fråga | o= alternativ | a= svar | Enkelt att lägga till fler frågor
 var questions = [
   {
     q : "Programspråket Python har fått sitt namn från...",
@@ -55,6 +58,9 @@ var questions = [
     a : 1
   }
 ];
+
+
+//Quiz-funktionen
 
 var quiz = {
   draw : function () {

@@ -29,6 +29,7 @@ font-family: "NexaL";
 	color: white;
 	font-family: NexaL;
 }
+/* Knapp och effekt */
 .button {
 	border: none;
 	padding: 12px 24px;
@@ -37,7 +38,6 @@ font-family: "NexaL";
   	-webkit-transition-duration: 0.4s; /* Safari */
   	transition-duration: 0.4s;
 }
-
 .button:hover {
   background-color: #E80C94; /* Green */
   color: white;
@@ -95,13 +95,20 @@ font-family: "NexaL";
 	padding: 4px;
 	color: white;
 }
+.pressCol{
+	width: 50%;
+}
 
 /* Footer */
 .footerCon{
 	max-width: 2160px;
 }
 .footer{
-	height: 64px;
+	height: 90px;
 	width: 100%; 
 	background-color: rgb(77,77,77);
+}
+.footerText{
+	text-align: center;
+	padding: 6px;
 }
