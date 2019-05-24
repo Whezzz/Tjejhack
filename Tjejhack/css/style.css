@@ -29,6 +29,19 @@ font-family: "NexaL";
 	color: white;
 	font-family: NexaL;
 }
+.button {
+	border: none;
+	padding: 12px 24px;
+	border-radius: 2px;
+
+  	-webkit-transition-duration: 0.4s; /* Safari */
+  	transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #E80C94; /* Green */
+  color: white;
+}
 
 /* Body Content */
 .navbarLogo{
@@ -62,10 +75,11 @@ font-family: "NexaL";
 .div4-Quiz{
 	width: 90%;
 	border: 1px white solid;
-	height: 280px;
-	margin: auto;
+	height: 100%;
 	padding: 8px;
 	font-family: NexaL;
+	margin-left: 20px;
+	margin-top: 10px;
 }
 .mentor{
 	width: 100%;
