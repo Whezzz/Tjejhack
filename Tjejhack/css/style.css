@@ -11,14 +11,21 @@ font-family: "NexaL";
 	src: url('../Fonts/NexaL.otf') format('opentype');
 }
 
+.temaDiv{
+	background-color: #E80C94;
+}
+.temaText{
+	color: #E80C94 !important;
+}
 .background{
 	background-color: rgb(33,33,33);
+	max-width: 1700px;
 }
 
 .navbar{
 	height: 96px;
 	width: 100%;
-	background-color: #E80C94;
+	background-color: rgb(77,77,77);
 }
 .div1{
 	width: 100%;
@@ -66,8 +73,11 @@ font-family: "NexaL";
 	color: white;
 	font-family: NexaL;
 }
+.footerCon{
+	max-width: 1700px;
+}
 .footer{
-	height: 132px;
-	width: 100%;
-	background-color: #E80C94; 
+	height: 64px;
+	width: 100%; 
+	background-color: rgb(77,77,77);
 }
