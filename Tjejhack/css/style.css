@@ -1,3 +1,4 @@
+/* Olika fonts */
 @font-face{
 	font-family: "Archive";
 	src: url('../Fonts/Archive.otf') format('opentype');
@@ -11,6 +12,7 @@ font-family: "NexaL";
 	src: url('../Fonts/NexaL.otf') format('opentype');
 }
 
+/* Allmäna klasser */
 .temaDiv{
 	background-color: #E80C94;
 }
@@ -21,49 +23,6 @@ font-family: "NexaL";
 	background-color: rgb(33,33,33);
 	max-width: 1700px;
 }
-
-.navbar{
-	height: 96px;
-	width: 100%;
-	background-color: rgb(77,77,77);
-}
-.div1{
-	width: 100%;
-	padding: 8px;
-}
-.div2{
-	width: 100%;
-	padding: 8px;
-	font-family: NexaL;
-}
-.div3{
-	width: 50%;
-	float: left;
-	padding: 8px;
-	font-family: NexaL;
-}
-.div4{
-	width: 90%;
-	border: 1px white solid;
-	height: 280px;
-	margin: auto;
-	padding: 8px;
-	font-family: NexaL;
-}
-.person{
-	width: 100%;
-	padding: 8px;
-	margin: 0;
-}
-.personImage{
-	height: 132px;
-	width: 132px;
-}
-.personText{
-	font-family: NexaB;
-	padding: 4px;
-	color: white;
-}
 .baseText{
 	font-size: 16px;
 	font-family: NexaL;
@@ -73,6 +32,52 @@ font-family: "NexaL";
 	color: white;
 	font-family: NexaL;
 }
+
+/* Body Content */
+.navbar{
+	height: 96px;
+	width: 100%;
+	background-color: rgb(77,77,77);
+}
+.div1-Häftet{
+	width: 100%;
+	padding: 8px;
+}
+.div2-Tjejhack{
+	width: 100%;
+	padding: 8px;
+	font-family: NexaL;
+}
+.div3-Var-När{
+	width: 50%;
+	float: left;
+	padding: 8px;
+	font-family: NexaL;
+}
+.div4-Quiz{
+	width: 90%;
+	border: 1px white solid;
+	height: 280px;
+	margin: auto;
+	padding: 8px;
+	font-family: NexaL;
+}
+.mentor{
+	width: 100%;
+	padding: 8px;
+	margin: 0;
+}
+.mentorImage{
+	height: 132px;
+	width: 132px;
+}
+.mentorText{
+	font-family: NexaB;
+	padding: 4px;
+	color: white;
+}
+
+/* Footer */
 .footerCon{
 	max-width: 1700px;
 }
