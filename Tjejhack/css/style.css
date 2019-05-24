@@ -13,15 +13,12 @@ font-family: "NexaL";
 }
 
 /* Allmäna klasser */
-.temaDiv{
-	background-color: #E80C94;
-}
 .temaText{
 	color: #E80C94 !important;
 }
 .background{
 	background-color: rgb(33,33,33);
-	max-width: 1700px;
+	max-width: 2160px;
 }
 .baseText{
 	font-size: 16px;
@@ -34,14 +31,19 @@ font-family: "NexaL";
 }
 
 /* Body Content */
-.navbar{
-	height: 124px;
+.navbarLogo{
+	height: 72px;
 	width: 100%;
 	background-color: white;
 }
 .navbarImg{
-	max-height: 70%;
-	max-width: 70%;
+	max-height: 100%;
+	max-width: 100%;
+	padding: 8px;
+}
+.navbarTitle{
+	text-align: center;
+	background-color: white;
 }
 .div1-Häftet{
 	width: 100%;
@@ -82,7 +84,7 @@ font-family: "NexaL";
 
 /* Footer */
 .footerCon{
-	max-width: 1700px;
+	max-width: 2160px;
 }
 .footer{
 	height: 64px;
